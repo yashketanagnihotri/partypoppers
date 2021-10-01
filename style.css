@@ -1,0 +1,100 @@
+/*html selectors*/
+body{
+    
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    color:#fff;
+    font-family: 'Montserrat Black', sans-serif;
+    font-size:3rem;
+    line-height:1.5;
+    padding-top:6rem;
+    transition:1s;
+    text-align:left;
+}
+h1:hover{
+    font-size:3.28rem;
+}
+lottie-player{
+    width:35rem;
+    height:35rem;
+}
+
+h3{
+    font-family: 'Montserrat Bold', sans-serif;
+    font-weight: bold;
+    color:#111D5E;
+    transition:0.5s;
+}
+h3:hover{
+    font-size:2rem;
+}
+/*class selectors*/
+.pros{
+    padding-top:3rem;
+}
+.fa-glass-cheers{
+    color:#fff;
+    width:50px;
+}
+.poppers{
+    color: #C70039;
+}
+.navbar-nav{
+    margin-left:auto;
+}
+.last-item{
+    padding-right:10px;
+}
+
+.navbar-brand{
+    font-size:2rem;
+    font-weight:bold;
+    font-family: 'Ubuntu', sans-serif;
+    transition:1s;
+}
+.navbar-brand:hover{
+    font-size:2.5rem;
+    transform:rotate(-15deg);
+}
+.container-fluid{
+    padding:3% 15%;
+}
+.btn{
+    margin:2rem 0.8rem 0 0;
+}
+.navbar{
+    padding-bottom: 2.5rem;
+}
+.nav-item{
+    padding:0 18px;
+}
+.nav-link{
+    font-family: 'Montserrat light', sans-serif;
+}                
+.apple-btn{
+    background-color:#C70039;
+}
+.apple-btn:hover{
+    background-color:#8a0027;
+}
+.feature-box{
+    padding:5%;
+    text-align: center;
+    color:#C70039;
+}
+.icon{
+    margin-bottom:15%;
+    transition:0.5s;
+}
+.icon:hover{
+    color:#111D5E;
+}
+/* id selectors */
+#title{
+    background-color:#111D5E;
+}
+#features{
+    padding:7% 15%;
+}
