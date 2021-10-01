@@ -16,11 +16,16 @@ h1{
 h1:hover{
     font-size:3.28rem;
 }
-lottie-player{
-    width:100%;
-    height: 100%;
+h2{
+    color:#fff;
+    font-family: 'Montserrat Black', sans-serif;
+    font-size:2.5rem;
+    transition: 0.5s;
+    text-align:center;
 }
-
+h2:hover{
+    font-size:3rem;
+}
 h3{
     font-family: 'Montserrat Bold', sans-serif;
     font-weight: bold;
@@ -47,7 +52,15 @@ h3:hover{
 .last-item{
     padding-right:10px;
 }
-
+.party{
+    padding-top: 10%;
+    width:100%;
+    height: 100%;
+}
+.beer{
+    width:80%;
+    
+}
 .navbar-brand{
     font-size:2rem;
     font-weight:bold;
@@ -61,6 +74,25 @@ h3:hover{
 .container-fluid{
     padding:3% 15%;
 }
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ffe3be;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #F37121;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #fa6000;
+  }
 .btn{
     margin:2rem 0.8rem 0 0;
 }
@@ -91,10 +123,36 @@ h3:hover{
 .icon:hover{
     color:#111D5E;
 }
+.about-us-heading{
+    text-align:center;
+    padding:10% 15%;
+    color:#fff;
+}
+.about-us-content{
+    padding-bottom:1%;
+    color:#fff;
+    text-align:right;
+    transition:1s;
+}
+.about-us-content:hover{
+    font-size:1.03rem;
+}
+.about-us-2{
+    padding:50px;
+    text-align:center;
+}
+.business-model{
+    padding-left:15%;
+    width:90%;
+}
 /* id selectors */
 #title{
     background-color:#111D5E;
 }
 #features{
+    padding:7% 15%;
+}
+#about-us{
+    background-color:#C70039;
     padding:7% 15%;
 }
