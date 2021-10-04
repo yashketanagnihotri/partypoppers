@@ -1,4 +1,7 @@
 /*html selectors*/
+html {
+    scroll-behavior: smooth;
+  }
 body{
     padding-right:0px;
     margin-right: 0px;
